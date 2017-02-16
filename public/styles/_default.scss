@@ -1,0 +1,30 @@
+@import "colors";
+@import "vars";
+$max-width: $huge-break;
+
+
+
+html,body {
+    height: 100%;
+}
+
+body {
+  color: $text-color;
+  font-size: 16px;
+  position: relative;
+  background-color:  $background-color;
+    max-width: $max-width;
+    margin: auto;
+    line-height: 1.4;
+}
+
+.page {
+  display: flex;
+} 
+
+a, a:visited { 
+  color: $text-color;
+}
+
+
+
