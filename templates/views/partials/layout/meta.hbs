@@ -30,19 +30,6 @@
 <meta name="msapplication-TileImage" content="/public/images/icon/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
 
-<!-- Piwik -->
-<script type="text/javascript">
-  var _paq = _paq || [];
-  _paq.push(["setDomains", ["*.brokenarrow.io"]]);
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function() {
-    var u="//p.kmattimo.me/";
-    _paq.push(['setTrackerUrl', u+'js/']);
-    _paq.push(['setSiteId', '2']);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'js/'; s.parentNode.insertBefore(g,s);
-  })();
-</script>
-<noscript><p><img src="//p.kmattimo.me/js/?idsite=2" style="border:0;" alt="" /></p></noscript>
-<!-- End Piwik Code -->
+{{#if page.analytics}}
+  {{{page.analytics}}}
+{{/if}}
