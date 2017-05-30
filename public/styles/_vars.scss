@@ -11,4 +11,5 @@ $desktop-break: 1024px;
 $huge-break: 1200px; 
 
 //dirty calculation for keeping the content below the image at first
-$image-margin : 100vw / 2;
+//changed to vh instead
+$image-margin : 60vh;

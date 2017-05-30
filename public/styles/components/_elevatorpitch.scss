@@ -32,6 +32,11 @@
   z-index: 50;
   position: relative;
   margin-top: $image-margin;
+
+  @media(max-width: $tablet-break) {
+    margin-top: 50vw;
+  }
+
   background-color: $transparent-black;
   //allow scroll all the way up
   margin-bottom: $image-margin / 2;
