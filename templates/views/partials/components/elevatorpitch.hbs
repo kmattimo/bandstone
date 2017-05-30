@@ -2,7 +2,9 @@
   
   <div class="row center no-bottom-margin">
     <div class="col-1of2">
-      <p> We are a four-piece Chicago, IL Band touching Rock, Pop, Experimental, Alternative, and Shoegaze. We want to play your next gig.  </p>
+      <p> 
+        {{{page.elevatorpitch}}}
+      </p>
       
       <p> <a href="https://www.soundcloud.com/thebrokenarrowcomplex/">Listen</a> to our music or 
         <a href="https://music.kylemattimore.com/" target="_blank">download</a> it for free!
@@ -62,16 +64,22 @@
   
   <br />
   
-  <div class="row center soundcloud"> 
-    <div class="col-1of2">
-      <iframe width="100%" height="auto" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/279124493&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+  {{#if page.soundcloud}}
+    <div class="row center soundcloud"> 
+      <div class="col-1of2">
+        {{{page.soundcloud}}}
+      </div>
     </div>
-  </div>
+  {{/if}}
   
-  <div class="row center soundcloud"> 
-    <div class="col-1of2">
-      <div class='embed-container'><iframe src='https://www.youtube.com/embed/0jBgfBtestc' frameborder='0' allowfullscreen></iframe></div>
+  {{#if page.youtube}}
+    <div class="row center soundcloud"> 
+      <div class="col-1of2">
+        <div class='embed-container'>
+          {{{page.youtube}}}
+        </div>
+      </div>
     </div>
-  </div>
+  {{/if}}
     
 </div>

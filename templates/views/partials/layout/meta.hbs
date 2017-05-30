@@ -1,12 +1,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{{#if title}}{{title}}{{else}}{{site.title}}{{/if}}</title>
-<meta name="description" content="{{site.description}}">
+<title>{{#if title}}{{title}}{{else}}{{settings.title}}{{/if}}</title>
+<meta name="description" content="{{settings.description}}">
 
-<meta property="og:url" content="{{og.url}}" />
+{{!--<meta property="og:url" content="{{og.url}}" />--}}
 <meta property="og:type" content="website" />
-<meta property="og:title" content="{{#if og.title}}{{og.title}}{{else}}{{site.title}}{{/if}}" />
-<meta property="og:description" content="{{site.description}}" />
+{{!--<meta property="og:title" content="{{#if og.title}}{{og.title}}{{else}}{{site.title}}{{/if}}" />--}}
+<meta property="og:description" content="{{settings.description}}" />
 <meta property="og:image" content="{{og.image}}" />
 
 <meta name="google-site-verification" content="4J-uK3Cby3I_iH2MhcUVAPZKJd1Jpu0hwRiZUlq9Bkc" />
@@ -30,6 +30,6 @@
 <meta name="msapplication-TileImage" content="/public/images/icon/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
 
-{{#if page.analytics}}
-  {{{page.analytics}}}
+{{#if settings.analytics}}
+  {{{settings.analytics}}}
 {{/if}}

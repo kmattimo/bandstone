@@ -6,6 +6,7 @@ $arrowbody-width: 10vw;
 
 .header {
   color: $logo-text-color;
+  background-color: $transparent-black;
   margin-top: 2vh;
   @media (min-width: $huge-break) { 
     margin-top: 5vh;
