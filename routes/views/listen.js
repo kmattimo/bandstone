@@ -1,6 +1,6 @@
 var keystone = require('keystone');
 var _ = require('underscore');
-var Song = keystone.list('Song');
+// var Song = keystone.list('Song');
 
 exports = module.exports = function (req, res) {
 
@@ -12,11 +12,8 @@ exports = module.exports = function (req, res) {
 	locals.section = 'listen';
 
 
-	Song.model.find()
-	.where('enabled', true)
-	.then(function (songs) {
-		locals.songs = songs;
-	});
+	view.query('songs', keystone.list('Song').model.find());
+
 
 	view.query('settings', keystone.list('Settings').model.findOne());
 	
