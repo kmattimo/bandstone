@@ -1,5 +1,6 @@
 // html5media enables <video> and <audio> tags in all major browsers
-// External File: https://api.html5media.info/1.1.8/html5media.min.js
+
+//https://codepen.io/markhillard/pen/Hjcwu
 
 
 // Add user agent as an attribute on the <html> tag...

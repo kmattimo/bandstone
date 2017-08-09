@@ -486,7 +486,8 @@ body {
     padding: 21px;
     position: absolute; }
   .player #plList {
-    margin: 0; }
+    margin: 0;
+    padding: 0; }
   .player #plList li {
     background-color: #231F20;
     cursor: pointer;
