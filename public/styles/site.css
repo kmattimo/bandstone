@@ -351,7 +351,6 @@ body {
   z-index: 0;
   width: 100vw;
   height: 100vh;
-  background-image: url("/images/cover.jpg");
   background-position: top;
   background-size: contain;
   background-repeat: no-repeat; }
@@ -377,6 +376,386 @@ body {
   font-size: .8em;
   line-height: 1em;
   vertical-align: center; }
+
+.player {
+  /* Font Family
+================================================== */
+  /* Desktop
+================================================== */
+  /* Tablet (Portrait)
+================================================== */
+  /* Mobile (Portrait)
+================================================== */
+  /* Mobile (Landscape)
+================================================== */
+  /* Typography
+================================================== */
+  /* Links
+================================================== */
+  /* Misc.
+================================================== */
+  /* Custom Styles
+================================================== */
+  /* Highlight Styles */
+  /* Audio Player Styles
+================================================== */
+  /* Default / Desktop / Firefox */
+  /* IE 9 */
+  /* IE 10 */
+  /* IE 11 */
+  /* All Apple Products */
+  /* IOS 7 */
+  /* IOS 8 */
+  /* IOS 9 */
+  /* Chrome */
+  /* Chrome / Android / Tablet */
+  /* Audio Player Media Queries
+================================================== */
+  /* Tablet Portrait */
+  /* Mobile Landscape */
+  /* Mobile Portrait */ }
+  .player .container {
+    position: relative;
+    margin: 0 auto;
+    width: 700px; }
+  .player .column {
+    width: inherit; }
+  @media only screen and (min-width: 768px) and (max-width: 959px) {
+    .player .container {
+      width: 556px; } }
+  @media only screen and (max-width: 767px) {
+    .player .container {
+      width: 300px; } }
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+    .player .container {
+      width: 420px; } }
+  .player h1, .player h6, .player p {
+    color: #808080;
+    font-weight: 200; }
+  .player h1 {
+    font-size: 42px;
+    line-height: 44px;
+    margin: 20px 0 0; }
+  .player h6 {
+    font-size: 18px;
+    line-height: 20px;
+    margin: 4px 0 20px; }
+  .player p {
+    font-size: 18px;
+    line-height: 20px;
+    margin: 0 0 2px; }
+  .player a, .player a:visited {
+    color: #ddd;
+    outline: 0;
+    text-decoration: underline; }
+  .player a:hover, .player a:focus {
+    color: #bbb; }
+  .player p a, .player p a:visited {
+    line-height: inherit; }
+  .player .add-bottom {
+    margin-bottom: 20px !important; }
+  .player .left {
+    float: left; }
+  .player .right {
+    float: right; }
+  .player .center {
+    text-align: center; }
+  .player ::selection {
+    background-color: #262223;
+    color: #444; }
+  .player audio {
+    margin: 0 15px 0 14px;
+    width: 670px; }
+  .player #mainwrap {
+    box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.25); }
+  .player #audiowrap {
+    background-color: #231F20;
+    margin: 0 auto; }
+  .player #plwrap {
+    margin: 0 auto; }
+  .player #tracks {
+    position: relative;
+    text-align: center; }
+  .player #nowPlay {
+    display: inline; }
+  .player #npTitle {
+    margin: 0;
+    padding: 21px;
+    text-align: right; }
+  .player #npAction {
+    padding: 21px;
+    position: absolute; }
+  .player #plList {
+    margin: 0; }
+  .player #plList li {
+    background-color: #231F20;
+    cursor: pointer;
+    display: block;
+    margin: 0;
+    padding: 21px 0; }
+  .player #plList li:hover {
+    background-color: #262223; }
+  .player .plItem {
+    position: relative; }
+  .player .plTitle {
+    left: 50px;
+    overflow: hidden;
+    position: absolute;
+    right: 65px;
+    text-overflow: ellipsis;
+    top: 0;
+    white-space: nowrap; }
+  .player .plNum {
+    padding-left: 21px;
+    width: 25px; }
+  .player .plLength {
+    padding-left: 21px;
+    position: absolute;
+    right: 21px;
+    top: 0; }
+  .player .plSel, .player .plSel:hover {
+    background-color: #262223 !important;
+    cursor: default !important; }
+  .player a[id^="btn"] {
+    background-color: #231F20;
+    color: #C8C7C8;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 50px;
+    margin: 0;
+    padding: 21px 27px;
+    text-decoration: none; }
+  .player a[id^="btn"]:last-child {
+    margin-left: -4px; }
+  .player a[id^="btn"]:hover, .player a[id^="btn"]:active {
+    background-color: #262223; }
+  .player a[id^="btn"]::-moz-focus-inner {
+    border: 0;
+    padding: 0; }
+  .player html[data-useragent*="MSIE 9.0"] audio {
+    margin-left: 9px;
+    outline: none;
+    width: 680px; }
+  .player html[data-useragent*="MSIE 9.0"] #audiowrap {
+    background-color: #000; }
+  .player html[data-useragent*="MSIE 9.0"] a[id^="btn"] {
+    background-color: #000; }
+  .player html[data-useragent*="MSIE 9.0"] a[id^="btn"]:hover {
+    background-color: #080808; }
+  .player html[data-useragent*="MSIE 9.0"] #plList li {
+    background-color: #000; }
+  .player html[data-useragent*="MSIE 9.0"] #plList li:hover {
+    background-color: #080808; }
+  .player html[data-useragent*="MSIE 9.0"] .plSel,
+  .player html[data-useragent*="MSIE 9.0"] .plSel:hover {
+    background-color: #080808 !important; }
+  .player html[data-useragent*="MSIE 10.0"] audio {
+    margin-left: 6px;
+    width: 687px; }
+  .player html[data-useragent*="MSIE 10.0"] #audiowrap {
+    background-color: #000; }
+  .player html[data-useragent*="MSIE 10.0"] a[id^="btn"] {
+    background-color: #000; }
+  .player html[data-useragent*="MSIE 10.0"] a[id^="btn"]:hover {
+    background-color: #080808; }
+  .player html[data-useragent*="MSIE 10.0"] #plList li {
+    background-color: #000; }
+  .player html[data-useragent*="MSIE 10.0"] #plList li:hover {
+    background-color: #080808; }
+  .player html[data-useragent*="MSIE 10.0"] .plSel,
+  .player html[data-useragent*="MSIE 10.0"] .plSel:hover {
+    background-color: #080808 !important; }
+  .player html[data-useragent*="rv:11.0"] audio {
+    margin-left: 2px;
+    width: 695px; }
+  .player html[data-useragent*="rv:11.0"] #audiowrap {
+    background-color: #000; }
+  .player html[data-useragent*="rv:11.0"] a[id^="btn"] {
+    background-color: #000; }
+  .player html[data-useragent*="rv:11.0"] a[id^="btn"]:hover {
+    background-color: #080808; }
+  .player html[data-useragent*="rv:11.0"] #plList li {
+    background-color: #000; }
+  .player html[data-useragent*="rv:11.0"] #plList li:hover {
+    background-color: #080808; }
+  .player html[data-useragent*="rv:11.0"] .plSel,
+  .player html[data-useragent*="rv:11.0"] .plSel:hover {
+    background-color: #080808 !important; }
+  .player html[data-useragent*="Apple"] audio {
+    margin: 0;
+    width: 100%; }
+  .player html[data-useragent*="Apple"] #audiowrap {
+    background-color: #000; }
+  .player html[data-useragent*="Apple"] a[id^="btn"] {
+    background-color: #000; }
+  .player html[data-useragent*="Apple"] a[id^="btn"]:hover {
+    background-color: #080808; }
+  .player html[data-useragent*="Apple"] #plList li {
+    background-color: #000; }
+  .player html[data-useragent*="Apple"] #plList li:hover {
+    background-color: #080808; }
+  .player html[data-useragent*="Apple"] .plSel,
+  .player html[data-useragent*="Apple"] .plSel:hover {
+    background-color: #080808 !important; }
+  .player html[data-useragent*="OS 7"] body {
+    color: #373837; }
+  .player html[data-useragent*="OS 7"] audio {
+    margin-left: 3px;
+    width: 690px; }
+  .player html[data-useragent*="OS 7"] #audiowrap {
+    background-color: #e6e6e6; }
+  .player html[data-useragent*="OS 7"] a[id^="btn"] {
+    background-color: #e6e6e6;
+    color: #373837; }
+  .player html[data-useragent*="OS 7"] a[id^="btn"]:hover {
+    background-color: #eee; }
+  .player html[data-useragent*="OS 7"] #plList li {
+    background-color: #e6e6e6; }
+  .player html[data-useragent*="OS 7"] #plList li:hover {
+    background-color: #eee; }
+  .player html[data-useragent*="OS 7"] .plSel,
+  .player html[data-useragent*="OS 7"] .plSel:hover {
+    background-color: #eee !important; }
+  .player html[data-useragent*="OS 8"] body {
+    color: #373837; }
+  .player html[data-useragent*="OS 8"] audio {
+    margin-left: 6px;
+    width: 694px; }
+  .player html[data-useragent*="OS 8"] #audiowrap {
+    background-color: #e4e4e4; }
+  .player html[data-useragent*="OS 8"] a[id^="btn"] {
+    background-color: #e4e4e4;
+    color: #373837; }
+  .player html[data-useragent*="OS 8"] a[id^="btn"]:hover {
+    background-color: #eee; }
+  .player html[data-useragent*="OS 8"] #plList li {
+    background-color: #e4e4e4; }
+  .player html[data-useragent*="OS 8"] #plList li:hover {
+    background-color: #eee; }
+  .player html[data-useragent*="OS 8"] .plSel,
+  .player html[data-useragent*="OS 8"] .plSel:hover {
+    background-color: #eee !important; }
+  .player html[data-useragent*="OS 9"] body {
+    color: #373837; }
+  .player html[data-useragent*="OS 9"] audio {
+    margin-left: 6px;
+    width: 694px; }
+  .player html[data-useragent*="OS 9"] #audiowrap {
+    background-color: #d5d5d5; }
+  .player html[data-useragent*="OS 9"] a[id^="btn"] {
+    background-color: #d5d5d5;
+    color: #373837; }
+  .player html[data-useragent*="OS 9"] a[id^="btn"]:hover {
+    background-color: #eee; }
+  .player html[data-useragent*="OS 9"] #plList li {
+    background-color: #d5d5d5; }
+  .player html[data-useragent*="OS 9"] #plList li:hover {
+    background-color: #eee; }
+  .player html[data-useragent*="OS 9"] .plSel,
+  .player html[data-useragent*="OS 9"] .plSel:hover {
+    background-color: #eee !important; }
+  .player html[data-useragent*="Chrome"] body {
+    color: #5a5a5a; }
+  .player html[data-useragent*="Chrome"] audio {
+    margin-left: 9px;
+    width: 677px; }
+  .player html[data-useragent*="Chrome"] #audiowrap {
+    background-color: #fafafa; }
+  .player html[data-useragent*="Chrome"] a[id^="btn"] {
+    background-color: #fafafa;
+    color: #5a5a5a; }
+  .player html[data-useragent*="Chrome"] a[id^="btn"]:hover {
+    background-color: #eee; }
+  .player html[data-useragent*="Chrome"] #plList li {
+    background-color: #fafafa; }
+  .player html[data-useragent*="Chrome"] #plList li:hover {
+    background-color: #eee; }
+  .player html[data-useragent*="Chrome"] .plSel,
+  .player html[data-useragent*="Chrome"] .plSel:hover {
+    background-color: #eee !important; }
+  .player html[data-useragent*="Chrome"][data-useragent*="Android"] body {
+    color: #373837; }
+  .player html[data-useragent*="Chrome"][data-useragent*="Android"] audio {
+    margin-left: 4px;
+    width: 689px; }
+  .player html[data-useragent*="Chrome"][data-useragent*="Android"] #audiowrap {
+    background-color: #fafafa; }
+  .player html[data-useragent*="Chrome"][data-useragent*="Android"] a[id^="btn"] {
+    background-color: #fafafa;
+    color: #373837; }
+  .player html[data-useragent*="Chrome"][data-useragent*="Android"] a[id^="btn"]:hover {
+    background-color: #eee; }
+  .player html[data-useragent*="Chrome"][data-useragent*="Android"] #plList li {
+    background-color: #fafafa; }
+  .player html[data-useragent*="Chrome"][data-useragent*="Android"] #plList li:hover {
+    background-color: #eee; }
+  .player html[data-useragent*="Chrome"][data-useragent*="Android"] .plSel,
+  .player html[data-useragent*="Chrome"][data-useragent*="Android"] .plSel:hover {
+    background-color: #eee !important; }
+  @media only screen and (min-width: 768px) and (max-width: 959px) {
+    .player audio {
+      width: 526px; }
+    .player html[data-useragent*="MSIE 9.0"] audio {
+      width: 536px; }
+    .player html[data-useragent*="MSIE 10.0"] audio {
+      width: 543px; }
+    .player html[data-useragent*="rv:11.0"] audio {
+      width: 551px; }
+    .player html[data-useragent*="OS 7"] audio {
+      width: 546px; }
+    .player html[data-useragent*="OS 8"] audio {
+      width: 550px; }
+    .player html[data-useragent*="OS 9"] audio {
+      width: 550px; }
+    .player html[data-useragent*="Chrome"] audio {
+      width: 533px; }
+    .player html[data-useragent*="Chrome"][data-useragent*="Android"] audio {
+      margin-left: 4px;
+      width: 545px; } }
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+    .player audio {
+      width: 390px; }
+    .player html[data-useragent*="MSIE 9.0"] audio {
+      width: 400px; }
+    .player html[data-useragent*="MSIE 10.0"] audio {
+      width: 407px; }
+    .player html[data-useragent*="rv:11.0"] audio {
+      width: 415px; }
+    .player html[data-useragent*="OS 7"] audio {
+      width: 410px; }
+    .player html[data-useragent*="OS 8"] audio {
+      width: 414px; }
+    .player html[data-useragent*="OS 9"] audio {
+      width: 414px; }
+    .player html[data-useragent*="Chrome"] audio {
+      width: 397px; }
+    .player html[data-useragent*="Chrome"][data-useragent*="Mobile"] audio {
+      margin-left: 4px;
+      width: 410px; }
+    .player #npTitle {
+      width: 245px; } }
+  @media only screen and (max-width: 479px) {
+    .player audio {
+      width: 270px; }
+    .player html[data-useragent*="MSIE 9.0"] audio {
+      width: 280px; }
+    .player html[data-useragent*="MSIE 10.0"] audio {
+      width: 287px; }
+    .player html[data-useragent*="rv:11.0"] audio {
+      width: 295px; }
+    .player html[data-useragent*="OS 7"] audio {
+      width: 290px; }
+    .player html[data-useragent*="OS 8"] audio {
+      width: 294px; }
+    .player html[data-useragent*="OS 9"] audio {
+      width: 294px; }
+    .player html[data-useragent*="Chrome"] audio {
+      width: 277px; }
+    .player html[data-useragent*="Chrome"][data-useragent*="Mobile"] audio {
+      margin-left: 4px;
+      width: 290px; }
+    .player #npTitle {
+      width: 167px; } }
 
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,2989d8+31,4e92c9+60,7db9e8+100 */
 .blue-background {
