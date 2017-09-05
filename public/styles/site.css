@@ -317,7 +317,8 @@ body {
   margin-left: 2.5vw; }
 
 .contact-us {
-  font-size: 12px; }
+  font-size: 12px;
+  margin-top: 0; }
   .contact-us .contact-link {
     text-decoration: none;
     margin-right: 5px; }
